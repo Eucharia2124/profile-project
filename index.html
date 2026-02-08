@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
+    <meta name="description" content="Obiageri Stöhr is a front-end developer based in Europe. With a passion for creating visually stunning and user-friendly websites, Obiageri combines technical expertise with creative design to deliver exceptional digital experiences.">
+    <title>Front-end developer - Obiageri Stöhr</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -20,14 +21,16 @@
 <body>
   <div class="container">
     <nav class="d-flex justify-content-between">
-    <img src="image/shecodes-logo.png" alt="/" class="logo d-none d-md-block" />
-    <img src="image/logo small.jpg" class="logo d-block d-md-none" alt="/" />
-    <ul class="nav-links">
-      <li class="active"><a href="/">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/work.html">Work</a></li>
-      <li><a href="/contact.html">Contact</a></li>
-    </ul>
+      <a href="/" title="Homepage">
+        <img src="image/shecodes-logo.png" alt="Obiageri logo" class="logo d-none d-md-block" />
+        <img src="image/logo small.jpg" class="logo d-block d-md-none" alt="Obiageri logo" />
+      </a>
+      <ul class="nav-links">
+        <li class="active"><a href="/" title="Homepage">Home</a></li>
+        <li><a href="/about.html" title="About Obiageri">About</a></li>
+        <li><a href="/work.html" title="Obiageri's work">Work</a></li>
+        <li><a href="/contact.html" title="Contact Obiageri">Contact</a></li>
+      </ul>
     </nav>
   </div>
 
@@ -44,7 +47,7 @@
   <div class="container">
     <div class="row mb-5">
       <div class="col d-none d-lg-block">
-        <img src="image/cH4m-yogurt.png" class="img-fluid" alt="" />
+        <img src="image/cH4m-yogurt.png" class="img-fluid" alt="Yogurt Project" />
       </div>
     <div class="col">
       <div class="project-desciptions">
@@ -79,12 +82,12 @@
       </div>
     </div>
     <div class="col d-none d-lg-block">
-        <img src="image/jxM9-weather.png" class="img-fluid" alt="" />
+        <img src="image/jxM9-weather.png" class="img-fluid" alt="Weather App" />
       </div>
   </div>
     <div class="row">
       <div class="col d-none d-lg-block">
-        <img src="image/dgHV-dictionary.png" class="img-fluid" alt="" />
+        <img src="image/dgHV-dictionary.png" class="img-fluid" alt="Dictionary App" />
       </div>
     <div class="col">
       <div class="project-desciptions">
@@ -105,15 +108,15 @@
   <footer>
     <div class="contact-box justify-content-between mb-5 d-md-flex">
       <div>
-        <h4>
+        <h3>
           Work Inquiries?
-        </h4>
+        </h3>
         <p class="text-muted">
           Let's work together
         </p>
       </div>
       <div>
-        <a href="/contact.html" class="btn btn-branding mt-3">Contact Me</a>
+        <a href="/contact.html" class="btn btn-branding mt-3" title="contact Obiageri">Contact Me</a>
       </div>
     </div>
     <div class="d-flex justify-content-center mb-5">
@@ -130,6 +133,13 @@
         <i class="fab fa-facebook"></i>
       </a>
     </div>
+    <p class="text-center">
+      👉This project was coded by Obiageri Stöhr, and it is
+      <a 
+      href="https://github.com/Eucharia2124/obiageri-profile" target="_blank">
+       open-sourced
+      </a>
+    </p>
   </footer>
 </div>
 </body>
